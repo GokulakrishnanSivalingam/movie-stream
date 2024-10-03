@@ -34,7 +34,7 @@ function Tws() {
         <center>
           <input
             type="text"
-            placeholder="  Search..."
+            placeholder=" Search..."
             value={searchTerm}
             onChange={handleSearchChange}
           />
