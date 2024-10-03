@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+* {
+    margin: 0%
+}
+
+body {
+    background-color: rgb(37, 35, 35);
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 5cap;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-family: "Bungee Tint", sans-serif;
+    font-size: 35px;
+}
+
+.video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    margin: 10px 20px 20px;
+    background-color: rgba(57, 56, 56, 0.954);
+    border-radius: 5px;
+}
+
+.title h1 {
+    color: white;
+    font-family: "Bungee spice", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.video-player {
+    transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fullscreen-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 5px;
+}
+
+.about p {
+    padding: 20px;
+}
+
+.about h2 {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .video-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p {
+        font-size: 12px;
+    }
+    .video-player {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+    }
+    .fullscreen-btn {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        z-index: 1000;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: none;
+        border-radius: 5px;
+    }
+    .about p {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .video-container {
+        height: 28vh;
+    }
+    .about {
+        margin: 12px;
+    }
+}
