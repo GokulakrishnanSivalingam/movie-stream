@@ -46,7 +46,7 @@ Nachiappan is a wealthy and successful Indian American restaurateur based in Los
     },
     {
         id: 4,
-        title:'hey ram',
+        title:'heyram',
         imageUrl: m4,
         videoUrl: 'https://res.cloudinary.com/dnb5k6kpt/video/upload/v1725162446/heyram_iuau1z.mp4',
         description:`Hey Ram (transl. Oh! Ram) is a 2000 Indian epic historical drama film written, directed, and produced by Kamal Haasan, that stars him and Shah Rukh Khan (in his Tamil debut) in lead roles. It was simultaneously made in the Tamil and Hindi languages.

@@ -58,6 +58,26 @@
         object-fit: cover;
     }
     
+    .pick a {
+        float: right;
+        margin-top: -53px;
+        color: orangered;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+    
+    .search input {
+        width: 600px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        margin: 20px;
+        background-color: rgb(57, 55, 55);
+        border: 2px solid grey;
+        color: white;
+        font-size: 16px;
+    }
+    
     @keyframes slide {
         0%,
         10% {
@@ -231,5 +251,16 @@
         .header h1 {
             font-family: "Bungee Tint", sans-serif;
             margin-top: 3px;
+        }
+        .search input {
+            width: 300px;
+            height: 35px;
+            border: none;
+            border-radius: 10px;
+            margin: 20px;
+            background-color: rgb(57, 55, 55);
+            border: 2px solid grey;
+            color: white;
+            font-size: 16px;
         }
     }
