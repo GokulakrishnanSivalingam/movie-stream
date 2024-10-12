@@ -19,7 +19,7 @@ function App() {
   
         <BrowserRouter>
       <Routes>
-        
+       
 <Route path='/' element={<Img/>}/>
 <Route path='/video/:id' element={<Video/>}/>
 <Route path='/20s/:id' element={<Tw/>}/>
