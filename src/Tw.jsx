@@ -32,5 +32,5 @@ import {useParams} from 'react-router-dom';
       </div>
     )
   }
-  export default Tw
+  export default Tw;
 
