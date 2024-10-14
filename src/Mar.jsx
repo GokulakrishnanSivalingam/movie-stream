@@ -46,7 +46,7 @@ function Mar() {
         <div className="wrapper1">
           {filteredMovies.length > 0 ? (
             filteredMovies.map((video) => (
-              <Link key={video.id} to={`/video/${video.id}`}>
+              <Link key={video.id} to={`/marvel/${video.id}`}>
                 <img src={video.imageUrl} alt={video.title} />
               </Link>
             ))
