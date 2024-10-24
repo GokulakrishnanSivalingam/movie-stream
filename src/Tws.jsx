@@ -46,7 +46,7 @@ function Tws() {
         <div className="wrapper1">
           {filteredMovies.length > 0 ? (
             filteredMovies.map((video) => (
-              <Link key={video.id} to={`/20s/${video.id}`}>
+              <Link key={video.id} to={`/twenty/${video.id}`}>
                 <img src={video.imageUrl} alt={video.title} />
               </Link>
             ))
