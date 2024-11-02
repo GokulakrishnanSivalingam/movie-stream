@@ -8,6 +8,7 @@ import i3 from "../src/image/salar.jpg"
 import i2 from "../src/image/ba1.jpg"
 import i4 from "../src/image/rrr.jpg"
 import { GrNext } from "react-icons/gr";
+import {Link} from "react-router-dom";
 
 import './App.css'
 
@@ -41,7 +42,7 @@ function Img() {
 </div>
 
      <div className="pick">  
-        <h1>top movies</h1><a href="/top"><GrNext/></a></div> 
+        <h1>top movies</h1><Link to="/top"><GrNext/></Link></div> 
         <div class="container">
             <div class="wrapper"> 
             {Data.map((video) => (
@@ -52,7 +53,7 @@ function Img() {
             </div>
             <div className="pick">  
         
-        <h1>marvel movies</h1><a href="/mar"><GrNext/></a></div> 
+        <h1>marvel movies</h1><Link to="/mar"><GrNext/></Link></div> 
         <div class="container">
             <div class="wrapper"> 
             {Data2.map((video) => (
@@ -63,7 +64,7 @@ function Img() {
             </div>
             <div className="pick">  
         
-        <h1>20s movies</h1><a href="/twenty"><GrNext/></a></div> 
+        <h1>20s movies</h1><Link to="/twenty"><GrNext/></Link></div> 
         <div class="container">
             <div class="wrapper"> 
             {Data3.map((video) => (
