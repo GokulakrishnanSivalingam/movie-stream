@@ -8,7 +8,7 @@ import i3 from "../src/image/salar.jpg"
 import i2 from "../src/image/ba1.jpg"
 import i4 from "../src/image/rrr.jpg"
 import { GrNext } from "react-icons/gr";
-import {Link} from "react-router-dom";
+
 
 import './App.css'
 
