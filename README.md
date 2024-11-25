@@ -1,6 +1,6 @@
 # Jetplex ✈️
 
-A modern and responsive **travel booking platform** built with **React** and deployed on **Vercel**, designed for seamless user experiences in planning and booking trips. 
+A modern and responsive **movie streaming platform** built with **React** and deployed on **Vercel**, designed for seamless user experiences watching movie. 
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
@@ -14,7 +14,7 @@ Explore Jetplex live: [Jetplex](https://jetplex.vercel.app)
 
 ## 🚀 Features
 - **User-friendly Interface**: Clean, intuitive design for an excellent user experience.
-- **Dynamic Search**: Easily find flights or destinations.
+- **Dynamic Search**: Easily search the movie.
 - **Responsive Design**: Optimized for mobile, tablet, and desktop devices.
 - **Performance Optimized**: Fast and reliable, ensuring smooth browsing.
 
@@ -24,6 +24,7 @@ Explore Jetplex live: [Jetplex](https://jetplex.vercel.app)
 - **Frontend**: React.js
 - **Styling**: CSS/Styled Components
 - **Hosting**: Vercel
+-  **cloud**: Cloudinary
 
 ---
 
@@ -34,4 +35,4 @@ src/
 ├── pages/         # Main pages like Home, Search, and Booking
 ├── assets/        # Images, icons, and other media
 ├── utils/         # Utility functions and constants
-└── App.js         # Root component
+└── App.jsx         # Root component
