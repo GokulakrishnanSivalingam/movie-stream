@@ -35,7 +35,7 @@ header h1 {
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    margin: 7px;
+    margin: 8px;
     background-color: rgba(57, 56, 56, 0.954);
     border-radius: 4px;
 }
@@ -113,6 +113,7 @@ header h1 {
         height: 28vh;
     }
     .about {
-        margin: 5px;
+        margin: 8px;
+        margin-top:20px;
     }
 }
