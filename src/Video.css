@@ -35,9 +35,9 @@ header h1 {
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    margin: 5px;
+    margin: 7px;
     background-color: rgba(57, 56, 56, 0.954);
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .title h1 {
@@ -113,6 +113,6 @@ header h1 {
         height: 28vh;
     }
     .about {
-        margin: 12px;
+        margin: 5px;
     }
 }
