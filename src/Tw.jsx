@@ -17,7 +17,7 @@ import {useParams} from 'react-router-dom';
         </header>
         <div className="title"><h1>{video.title}</h1></div>  
         <div className="video-container">
-      <video  controls autoPlay style={{ width: '100%', maxWidth: '95%', height: '100%',maxHeight: '450px', margin: '10px', borderRadius:'15px' ,background:'black' }} className="video-player">
+      <video  controls autoPlay style={{ width: '100%', maxWidth: '100%', height: '100%',maxHeight: '500px', margin: '1px', borderRadius:'15px' ,background:'black' }} className="video-player">
         <source src={video.videoUrl} type="video/mp4" />
 
       </video>
