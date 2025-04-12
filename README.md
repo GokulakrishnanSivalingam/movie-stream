@@ -1,4 +1,4 @@
-# Jetplex ✈️
+# Jetplex😁 
 
 A modern and responsive **movie streaming platform** built with **React** and deployed on **Vercel**, designed for seamless user experiences watching movies.
 
@@ -44,6 +44,8 @@ git clone https://github.com/GokulakrishnanSivalingam/movie-stream.git
 cd movie-stream
 ```
 
+
+
 Install dependencies for react js
 ```
 npm install
@@ -52,3 +54,6 @@ npm install
 Start the development server
 ```
 npm start
+```
+<h1 align="center">
+<img width="500px" height="150px" src="https://media.tenor.com/3nqJ5DSPKVYAAAAS/passover-rabbis.gif"/></h1>
