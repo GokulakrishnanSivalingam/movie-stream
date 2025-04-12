@@ -2,11 +2,6 @@
 
 A modern and responsive **movie streaming platform** built with **React** and deployed on **Vercel**, designed for seamless user experiences watching movies.
 
-
----
-
-
-
 ## 🚀 Features
 
 - ✅ **User-friendly Interface** – Clean, intuitive design for an excellent user experience.  
@@ -15,7 +10,6 @@ A modern and responsive **movie streaming platform** built with **React** and de
 - ⚡ **Performance Optimized** – Fast and reliable, ensuring smooth browsing.  
 - ☁️ **Cloud Integration** – Store and stream movies using Cloudinary.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -27,7 +21,6 @@ A modern and responsive **movie streaming platform** built with **React** and de
 | Cloudinary     | Cloud media storage and delivery    | ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat&logo=cloudinary&logoColor=white) |
 | Vercel         | Deployment/Hosting                  | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) |
 
----
 
 ## 📊 Tech Usage
 
@@ -37,7 +30,6 @@ You can visualize the tech distribution like this:
 
 ![Pie Chart](https://quickchart.io/chart?c={type:'pie',data:{labels:['React','JavaScript','CSS','Cloudinary','Vercel'],datasets:[{data:[30,25,20,15,10]}]}})
 
----
 
 ## 🧰 Installation
 
@@ -45,13 +37,18 @@ To run Jetplex locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/jetplex.git
+git clone https://github.com/GokulakrishnanSivalingam/movie-stream.git
+```
+ Navigate into the directory
+ ```
+cd movie-stream
+```
 
-# Navigate into the directory
-cd jetplex
-
-# Install dependencies
+Install dependencies for react js
+```
 npm install
+```
 
-# Start the development server
+Start the development server
+```
 npm start
